@@ -15,6 +15,10 @@
 		96FA8042201AA9B200C2335C /* 001. Two Sum.playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8041201AA9B200C2335C /* 001. Two Sum.playground.swift */; };
 		96FA8045201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8044201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift */; };
 		96FA8047201AAB4B00C2335C /* 015. 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8046201AAB4B00C2335C /* 015. 3Sum.swift */; };
+		96FA8049201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8048201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift */; };
+		96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA804A201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift */; };
+		96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */; };
+		96FA804F201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		96FA8041201AA9B200C2335C /* 001. Two Sum.playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "001. Two Sum.playground.swift"; sourceTree = "<group>"; };
 		96FA8044201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "004. Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
 		96FA8046201AAB4B00C2335C /* 015. 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "015. 3Sum.swift"; sourceTree = "<group>"; };
+		96FA8048201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "026. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		96FA804A201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "033. Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
+		96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "080. Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
+		96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "081. Search in Rotated Sorted Array II.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 				96FA8041201AA9B200C2335C /* 001. Two Sum.playground.swift */,
 				96FA8044201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift */,
 				96FA8046201AAB4B00C2335C /* 015. 3Sum.swift */,
+				96FA8048201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift */,
+				96FA804A201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift */,
+				96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */,
+				96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -154,9 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96FA8042201AA9B200C2335C /* 001. Two Sum.playground.swift in Sources */,
+				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
 				96FA8045201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift in Sources */,
 				96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */,
+				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
+				96FA8049201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift in Sources */,
 				96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */,
+				96FA804F201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift in Sources */,
 				96FA8047201AAB4B00C2335C /* 015. 3Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
