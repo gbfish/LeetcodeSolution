@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F51796201BB5CF00320D41 /* 018. 4Sum.swift */; };
 		96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F51798201BD55E00320D41 /* 027. Remove Element.swift */; };
+		96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		96F51796201BB5CF00320D41 /* 018. 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "018. 4Sum.swift"; sourceTree = "<group>"; };
 		96F51798201BD55E00320D41 /* 027. Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "027. Remove Element.swift"; sourceTree = "<group>"; };
+		96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "031. Next Permutation.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				96F51796201BB5CF00320D41 /* 018. 4Sum.swift */,
 				96FA8048201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift */,
 				96F51798201BD55E00320D41 /* 027. Remove Element.swift */,
+				96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */,
 				96FA804A201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift */,
 				96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */,
 				96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */,
@@ -184,6 +187,7 @@
 				96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */,
 				96FA8051201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift in Sources */,
 				96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */,
+				96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */,
 				96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */,
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
 				96FA8049201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift in Sources */,
