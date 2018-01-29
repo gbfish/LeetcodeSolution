@@ -37,7 +37,7 @@ struct Solution33 {
     }
     
     func run() {
-        let nums = [3,1]//[4,5,6,7,0,1,2]
+        let nums = [3,1]
         _ = search(nums, 2)
     }
 }
