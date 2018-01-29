@@ -12,6 +12,7 @@
 		96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */; };
 		96F5179D201BFA4C00320D41 /* 060. Permutation Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5179C201BFA4C00320D41 /* 060. Permutation Sequence.swift */; };
 		96F5179F201FCC0200320D41 /* 036. Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5179E201FCC0200320D41 /* 036. Valid Sudoku.swift */; };
+		96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A0201FE8A600320D41 /* 042. Trapping Rain Water.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "031. Next Permutation.swift"; sourceTree = "<group>"; };
 		96F5179C201BFA4C00320D41 /* 060. Permutation Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "060. Permutation Sequence.swift"; sourceTree = "<group>"; };
 		96F5179E201FCC0200320D41 /* 036. Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "036. Valid Sudoku.swift"; sourceTree = "<group>"; };
+		96F517A0201FE8A600320D41 /* 042. Trapping Rain Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "042. Trapping Rain Water.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */,
 				96FA804A201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift */,
 				96F5179E201FCC0200320D41 /* 036. Valid Sudoku.swift */,
+				96F517A0201FE8A600320D41 /* 042. Trapping Rain Water.swift */,
 				96F5179C201BFA4C00320D41 /* 060. Permutation Sequence.swift */,
 				96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */,
 				96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */,
@@ -189,6 +192,7 @@
 				96FA8042201AA9B200C2335C /* 001. Two Sum.playground.swift in Sources */,
 				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
+				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
 				96F5179D201BFA4C00320D41 /* 060. Permutation Sequence.swift in Sources */,
 				96F5179F201FCC0200320D41 /* 036. Valid Sudoku.swift in Sources */,
 				96FA8045201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift in Sources */,
