@@ -20,6 +20,7 @@
 		96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */; };
 		96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AC20224E5500320D41 /* 134. Gas Station.swift */; };
 		96F517AF202257D000320D41 /* 135. Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AE202257D000320D41 /* 135. Candy.swift */; };
+		96F517B120225E5F00320D41 /* 136. Single Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517B020225E5F00320D41 /* 136. Single Number.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "073. Set Matrix Zeroes.swift"; sourceTree = "<group>"; };
 		96F517AC20224E5500320D41 /* 134. Gas Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134. Gas Station.swift"; sourceTree = "<group>"; };
 		96F517AE202257D000320D41 /* 135. Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "135. Candy.swift"; sourceTree = "<group>"; };
+		96F517B020225E5F00320D41 /* 136. Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136. Single Number.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				96FA8050201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift */,
 				96F517AC20224E5500320D41 /* 134. Gas Station.swift */,
 				96F517AE202257D000320D41 /* 135. Candy.swift */,
+				96F517B020225E5F00320D41 /* 136. Single Number.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */,
 				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
+				96F517B120225E5F00320D41 /* 136. Single Number.swift in Sources */,
 				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
 				96F5179D201BFA4C00320D41 /* 060. Permutation Sequence.swift in Sources */,
 				96F5179F201FCC0200320D41 /* 036. Valid Sudoku.swift in Sources */,
