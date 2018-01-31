@@ -18,6 +18,7 @@
 		96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A62021057100320D41 /* 070. Climbing Stairs.swift */; };
 		96F517A92021246800320D41 /* 089. Gray Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A82021246800320D41 /* 089. Gray Code.swift */; };
 		96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */; };
+		96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AC20224E5500320D41 /* 134. Gas Station.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		96F517A62021057100320D41 /* 070. Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "070. Climbing Stairs.swift"; sourceTree = "<group>"; };
 		96F517A82021246800320D41 /* 089. Gray Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "089. Gray Code.swift"; sourceTree = "<group>"; };
 		96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "073. Set Matrix Zeroes.swift"; sourceTree = "<group>"; };
+		96F517AC20224E5500320D41 /* 134. Gas Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134. Gas Station.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */,
 				96F517A82021246800320D41 /* 089. Gray Code.swift */,
 				96FA8050201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift */,
+				96F517AC20224E5500320D41 /* 134. Gas Station.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				96F517A92021246800320D41 /* 089. Gray Code.swift in Sources */,
 				96FA8042201AA9B200C2335C /* 001. Two Sum.playground.swift in Sources */,
 				96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */,
+				96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */,
 				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
 				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
