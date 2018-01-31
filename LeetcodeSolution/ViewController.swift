@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-//        let solution = Solution70()
+//        let solution = Solution89()
 //        solution.run()
     }
 }

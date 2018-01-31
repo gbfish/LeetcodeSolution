@@ -31,7 +31,7 @@ import Foundation
 
 struct Solution70 {
     
-    struct FibsIterator: IteratorProtocol {
+    struct FibonacciIterator: IteratorProtocol {
         var previous: Int
         var current: Int
         
@@ -44,11 +44,11 @@ struct Solution70 {
     }
     
     func climbStairs(_ n: Int) -> Int {
-        var fibsIterator = FibsIterator(previous: 0, current: 1)
+        var fibonacciIterator = FibonacciIterator(previous: 0, current: 1)
         for _ in 0..<n {
-            _ = fibsIterator.next()
+            _ = fibonacciIterator.next()
         }
-        return fibsIterator.current
+        return fibonacciIterator.current
     }
     
     func run() {
