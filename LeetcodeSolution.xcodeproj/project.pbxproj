@@ -19,6 +19,7 @@
 		96F517A92021246800320D41 /* 089. Gray Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A82021246800320D41 /* 089. Gray Code.swift */; };
 		96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */; };
 		96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AC20224E5500320D41 /* 134. Gas Station.swift */; };
+		96F517AF202257D000320D41 /* 135. Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AE202257D000320D41 /* 135. Candy.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		96F517A82021246800320D41 /* 089. Gray Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "089. Gray Code.swift"; sourceTree = "<group>"; };
 		96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "073. Set Matrix Zeroes.swift"; sourceTree = "<group>"; };
 		96F517AC20224E5500320D41 /* 134. Gas Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134. Gas Station.swift"; sourceTree = "<group>"; };
+		96F517AE202257D000320D41 /* 135. Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "135. Candy.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				96F517A82021246800320D41 /* 089. Gray Code.swift */,
 				96FA8050201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift */,
 				96F517AC20224E5500320D41 /* 134. Gas Station.swift */,
+				96F517AE202257D000320D41 /* 135. Candy.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */,
 				96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */,
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
+				96F517AF202257D000320D41 /* 135. Candy.swift in Sources */,
 				96FA8049201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift in Sources */,
 				96F517A52021001B00320D41 /* 066. Plus One.swift in Sources */,
 				96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */,
