@@ -17,6 +17,7 @@
 		96F517A52021001B00320D41 /* 066. Plus One.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A42021001B00320D41 /* 066. Plus One.swift */; };
 		96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A62021057100320D41 /* 070. Climbing Stairs.swift */; };
 		96F517A92021246800320D41 /* 089. Gray Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517A82021246800320D41 /* 089. Gray Code.swift */; };
+		96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */; };
 		96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA802F201AA7EE00C2335C /* AppDelegate.swift */; };
 		96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA8031201AA7EE00C2335C /* ViewController.swift */; };
 		96FA8035201AA7EE00C2335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FA8033201AA7EE00C2335C /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		96F517A42021001B00320D41 /* 066. Plus One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "066. Plus One.swift"; sourceTree = "<group>"; };
 		96F517A62021057100320D41 /* 070. Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "070. Climbing Stairs.swift"; sourceTree = "<group>"; };
 		96F517A82021246800320D41 /* 089. Gray Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "089. Gray Code.swift"; sourceTree = "<group>"; };
+		96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "073. Set Matrix Zeroes.swift"; sourceTree = "<group>"; };
 		96FA802C201AA7EE00C2335C /* LeetcodeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetcodeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA802F201AA7EE00C2335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA8031201AA7EE00C2335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				96F5179C201BFA4C00320D41 /* 060. Permutation Sequence.swift */,
 				96F517A42021001B00320D41 /* 066. Plus One.swift */,
 				96F517A62021057100320D41 /* 070. Climbing Stairs.swift */,
+				96F517AA2021496000320D41 /* 073. Set Matrix Zeroes.swift */,
 				96FA804C201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift */,
 				96FA804E201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift */,
 				96F517A82021246800320D41 /* 089. Gray Code.swift */,
@@ -221,6 +224,7 @@
 				96F517A52021001B00320D41 /* 066. Plus One.swift in Sources */,
 				96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */,
 				96FA804F201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift in Sources */,
+				96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */,
 				96FA8047201AAB4B00C2335C /* 015. 3Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
