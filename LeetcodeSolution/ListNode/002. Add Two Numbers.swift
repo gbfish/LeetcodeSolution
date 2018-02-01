@@ -28,15 +28,6 @@ import Foundation
 
 struct Solution2 {
     
-    class ListNode {
-        var val: Int
-        var next: ListNode?
-        init(_ val: Int) {
-            self.val = val
-            self.next = nil
-        }
-    }
-    
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         func add(listNode1: ListNode?, listNode2: ListNode?) -> ListNode? {
             let result = ListNode((listNode1?.val ?? 0) + (listNode2?.val ?? 0))
@@ -66,17 +57,8 @@ struct Solution2 {
     }
     
     func run() {
-        let l1 = ListNode(2)
-        let l1Next1 = ListNode(4)
-        let l1Next2 = ListNode(3)
-        l1.next = l1Next1
-        l1Next1.next = l1Next2
-        
-        let l2 = ListNode(5)
-        let l2Next1 = ListNode(6)
-        let l2Next2 = ListNode(4)
-        l2.next = l2Next1
-        l2Next1.next = l2Next2
+        let l1 = ListNode(array: [2, 4, 3])
+        let l2 = ListNode(array: [5, 6, 4])
         
         _ = addTwoNumbers(l1, l2)
     }
