@@ -15,28 +15,26 @@ import Foundation
 class Solution86 {
     
     func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
+        
         let dummy = ListNode(0)
         var previousOfDummy: ListNode? = dummy
+        var previousOfHead: ListNode?
         
-        var previousOfHead: ListNode? = head
-        
-        while previousOfHead != nil {
-            if previousOfHead!.val < x {
-                previousOfDummy?.next = ListNode(previousOfHead!.val)
-                previousOfDummy = previousOfDummy?.next
+        func addCorrectOne(isCorrect: (Int) -> Bool) {
+            previousOfHead = head
+            
+            while previousOfHead != nil {
+                if isCorrect(previousOfHead!.val) {
+                    previousOfDummy?.next = ListNode(previousOfHead!.val)
+                    previousOfDummy = previousOfDummy?.next
+                }
+                previousOfHead = previousOfHead?.next
             }
-            previousOfHead = previousOfHead?.next
         }
         
-        previousOfHead = head
-        while previousOfHead != nil {
-            if previousOfHead!.val >= x {
-                previousOfDummy?.next = ListNode(previousOfHead!.val)
-                previousOfDummy = previousOfDummy?.next
-            }
-            previousOfHead = previousOfHead?.next
-        }
-        
+        addCorrectOne(isCorrect: { $0 < x })
+        addCorrectOne(isCorrect: { $0 >= x })
+
         return dummy.next
     }
     
