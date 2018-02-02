@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
 		96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF42023DAFC00F59015 /* ListNode.swift */; };
+		96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF62023DF7700F59015 /* 086. Partition List.swift */; };
 		96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F51796201BB5CF00320D41 /* 018. 4Sum.swift */; };
 		96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F51798201BD55E00320D41 /* 027. Remove Element.swift */; };
 		96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
 		96F0DCF42023DAFC00F59015 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		96F0DCF62023DF7700F59015 /* 086. Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "086. Partition List.swift"; sourceTree = "<group>"; };
 		96F51796201BB5CF00320D41 /* 018. 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "018. 4Sum.swift"; sourceTree = "<group>"; };
 		96F51798201BD55E00320D41 /* 027. Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "027. Remove Element.swift"; sourceTree = "<group>"; };
 		96F5179A201BD7AB00320D41 /* 031. Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "031. Next Permutation.swift"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				96F0DCF42023DAFC00F59015 /* ListNode.swift */,
 				96F517B420226FAD00320D41 /* 002. Add Two Numbers.swift */,
+				96F0DCF62023DF7700F59015 /* 086. Partition List.swift */,
 				967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */,
 			);
 			path = ListNode;
@@ -251,6 +254,7 @@
 				967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */,
 				96F517B320226D5200320D41 /* 137. Single Number II.swift in Sources */,
 				96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */,
+				96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */,
 				96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */,
 				96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */,
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
