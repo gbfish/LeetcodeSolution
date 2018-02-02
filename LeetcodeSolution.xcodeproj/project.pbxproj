@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
+		96B80A302024F86000AEACEE /* 019. Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */; };
+		96B80A322024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */; };
 		96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF42023DAFC00F59015 /* ListNode.swift */; };
 		96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF62023DF7700F59015 /* 086. Partition List.swift */; };
 		96F0DCF92023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF82023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift */; };
@@ -47,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
+		96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "019. Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
+		96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "024. Swap Nodes in Pairs.swift"; sourceTree = "<group>"; };
 		96F0DCF42023DAFC00F59015 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		96F0DCF62023DF7700F59015 /* 086. Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "086. Partition List.swift"; sourceTree = "<group>"; };
 		96F0DCF82023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "083. Remove Duplicates from Sorted List.swift"; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			children = (
 				96F0DCF42023DAFC00F59015 /* ListNode.swift */,
 				96F517B420226FAD00320D41 /* 002. Add Two Numbers.swift */,
+				96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */,
+				96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */,
 				96F0DCFC2024E8BC00F59015 /* 061. Rotate List.swift */,
 				96F0DCFA2023EB9000F59015 /* 082. Remove Duplicates from Sorted List II.swift */,
 				96F0DCF82023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift */,
@@ -263,6 +269,7 @@
 				96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */,
 				96FA8051201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift in Sources */,
 				967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */,
+				96B80A302024F86000AEACEE /* 019. Remove Nth Node From End of List.swift in Sources */,
 				96F517B320226D5200320D41 /* 137. Single Number II.swift in Sources */,
 				96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */,
 				96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */,
@@ -276,6 +283,7 @@
 				96F517A52021001B00320D41 /* 066. Plus One.swift in Sources */,
 				96FA8030201AA7EE00C2335C /* AppDelegate.swift in Sources */,
 				96FA804F201AAD4C00C2335C /* 081. Search in Rotated Sorted Array II.swift in Sources */,
+				96B80A322024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift in Sources */,
 				96F517AB2021496000320D41 /* 073. Set Matrix Zeroes.swift in Sources */,
 				96FA8047201AAB4B00C2335C /* 015. 3Sum.swift in Sources */,
 			);
