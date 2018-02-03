@@ -19,7 +19,7 @@ struct Solution125 {
     
     func isPalindrome(_ s: String) -> Bool {
         func isAlphanumeric(string: String) -> Bool {
-            return !string.isEmpty && string.range(of: "[^a-zA-Z0-9]", options: String.CompareOptions.regularExpression) == nil
+            return !string.isEmpty && string.range(of: "[^a-zA-Z0-9]", options: .regularExpression) == nil
         }
         
         let filterString = s.filter({ isAlphanumeric(string: String($0)) }).lowercased()
