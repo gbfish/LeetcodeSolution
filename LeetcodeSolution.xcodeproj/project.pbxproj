@@ -14,6 +14,7 @@
 		96B80A3720252B3100AEACEE /* 143. Reorder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3620252B3100AEACEE /* 143. Reorder List.swift */; };
 		96B80A3920253A1600AEACEE /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */; };
 		96B80A3C20258F1800AEACEE /* 028. Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */; };
+		96B80A3E2025945600AEACEE /* 008. String to Integer (atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */; };
 		96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF42023DAFC00F59015 /* ListNode.swift */; };
 		96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF62023DF7700F59015 /* 086. Partition List.swift */; };
 		96F0DCF92023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0DCF82023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift */; };
@@ -59,6 +60,7 @@
 		96B80A3620252B3100AEACEE /* 143. Reorder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "143. Reorder List.swift"; sourceTree = "<group>"; };
 		96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
 		96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "028. Implement strStr().swift"; sourceTree = "<group>"; };
+		96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "008. String to Integer (atoi).swift"; sourceTree = "<group>"; };
 		96F0DCF42023DAFC00F59015 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		96F0DCF62023DF7700F59015 /* 086. Partition List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "086. Partition List.swift"; sourceTree = "<group>"; };
 		96F0DCF82023E72000F59015 /* 083. Remove Duplicates from Sorted List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "083. Remove Duplicates from Sorted List.swift"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		96B80A3A20253A7A00AEACEE /* String */ = {
 			isa = PBXGroup;
 			children = (
+				96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */,
 				96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */,
 				96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */,
 			);
@@ -289,6 +292,7 @@
 				96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */,
 				96B80A352025167300AEACEE /* 025. Reverse Nodes in k-Group.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
+				96B80A3E2025945600AEACEE /* 008. String to Integer (atoi).swift in Sources */,
 				96B80A3C20258F1800AEACEE /* 028. Implement strStr().swift in Sources */,
 				96F517B120225E5F00320D41 /* 136. Single Number.swift in Sources */,
 				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
