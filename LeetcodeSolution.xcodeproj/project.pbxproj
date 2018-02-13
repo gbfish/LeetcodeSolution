@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
+		9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */; };
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
 		96B80A302024F86000AEACEE /* 019. Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */; };
 		96B80A322024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
+		9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "005. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
 		96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "019. Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "024. Swap Nodes in Pairs.swift"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		96B80A3A20253A7A00AEACEE /* String */ = {
 			isa = PBXGroup;
 			children = (
+				9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */,
 				96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */,
 				96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */,
 				9659C601202A8B130001001D /* 067. Add Binary.swift */,
@@ -306,6 +309,7 @@
 				96F517A3201FEC7A00320D41 /* 048. Rotate Image.swift in Sources */,
 				96FA8045201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift in Sources */,
 				96FA8032201AA7EE00C2335C /* ViewController.swift in Sources */,
+				9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */,
 				96FA8051201AAE1300C2335C /* 128. Longest Consecutive Sequence.swift in Sources */,
 				967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */,
 				96B80A302024F86000AEACEE /* 019. Remove Nth Node From End of List.swift in Sources */,
