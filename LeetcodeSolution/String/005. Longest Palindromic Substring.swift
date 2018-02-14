@@ -184,7 +184,6 @@ struct Solution5 {
     }
     
     func run() {
-        let answer = longestPalindrome2("babad")
-        print("answer = \(answer)")
+        _ = longestPalindrome2("babad")
     }
 }
