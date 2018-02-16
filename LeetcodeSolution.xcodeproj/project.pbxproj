@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
+		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
 		9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */; };
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
+		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
 		9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "005. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */,
 				961E166F203386250014173C /* 010. Regular Expression Matching.swift */,
 				96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */,
+				961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */,
 				9659C601202A8B130001001D /* 067. Add Binary.swift */,
 				96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */,
 			);
@@ -321,6 +324,7 @@
 				96F51799201BD55E00320D41 /* 027. Remove Element.swift in Sources */,
 				96F0DCF72023DF7700F59015 /* 086. Partition List.swift in Sources */,
 				96F5179B201BD7AB00320D41 /* 031. Next Permutation.swift in Sources */,
+				961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */,
 				96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */,
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
 				96F517AF202257D000320D41 /* 135. Candy.swift in Sources */,
