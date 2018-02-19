@@ -13,6 +13,7 @@
 		9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */; };
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
 		968B8B682037871B00F7DC2A /* 014. Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B8B672037871B00F7DC2A /* 014. Longest Common Prefix.swift */; };
+		968B8B6A2037A8FF00F7DC2A /* 065. Valid Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B8B692037A8FF00F7DC2A /* 065. Valid Number.swift */; };
 		96B80A302024F86000AEACEE /* 019. Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */; };
 		96B80A322024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */; };
 		96B80A352025167300AEACEE /* 025. Reverse Nodes in k-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A342025167300AEACEE /* 025. Reverse Nodes in k-Group.swift */; };
@@ -64,6 +65,7 @@
 		9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "005. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
 		968B8B672037871B00F7DC2A /* 014. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "014. Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		968B8B692037A8FF00F7DC2A /* 065. Valid Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "065. Valid Number.swift"; sourceTree = "<group>"; };
 		96B80A2F2024F86000AEACEE /* 019. Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "019. Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		96B80A312024FBAA00AEACEE /* 024. Swap Nodes in Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "024. Swap Nodes in Pairs.swift"; sourceTree = "<group>"; };
 		96B80A342025167300AEACEE /* 025. Reverse Nodes in k-Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "025. Reverse Nodes in k-Group.swift"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				968B8B672037871B00F7DC2A /* 014. Longest Common Prefix.swift */,
 				96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */,
 				961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */,
+				968B8B692037A8FF00F7DC2A /* 065. Valid Number.swift */,
 				9659C601202A8B130001001D /* 067. Add Binary.swift */,
 				96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */,
 			);
@@ -313,6 +316,7 @@
 				96F517B120225E5F00320D41 /* 136. Single Number.swift in Sources */,
 				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
 				96F5179D201BFA4C00320D41 /* 060. Permutation Sequence.swift in Sources */,
+				968B8B6A2037A8FF00F7DC2A /* 065. Valid Number.swift in Sources */,
 				96B80A3920253A1600AEACEE /* 125. Valid Palindrome.swift in Sources */,
 				96F5179F201FCC0200320D41 /* 036. Valid Sudoku.swift in Sources */,
 				9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */,
