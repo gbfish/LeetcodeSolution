@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
 		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
+		965488F920460E9F00E41ED5 /* 058. Length of Last Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */; };
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
 		9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */; };
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
@@ -66,6 +67,7 @@
 /* Begin PBXFileReference section */
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
+		965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "058. Length of Last Word.swift"; sourceTree = "<group>"; };
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
 		9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "005. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				96D523362045F14E004C3A9D /* 038. Count and Say.swift */,
 				961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */,
 				96D523382045FE2D004C3A9D /* 049. Group Anagrams.swift */,
+				965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */,
 				968B8B692037A8FF00F7DC2A /* 065. Valid Number.swift */,
 				9659C601202A8B130001001D /* 067. Add Binary.swift */,
 				96D5233A204605DB004C3A9D /* 071. Simplify Path.swift */,
@@ -326,6 +329,7 @@
 				96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */,
 				96B80A352025167300AEACEE /* 025. Reverse Nodes in k-Group.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
+				965488F920460E9F00E41ED5 /* 058. Length of Last Word.swift in Sources */,
 				96B80A3E2025945600AEACEE /* 008. String to Integer (atoi).swift in Sources */,
 				961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */,
 				96B80A3C20258F1800AEACEE /* 028. Implement strStr().swift in Sources */,
