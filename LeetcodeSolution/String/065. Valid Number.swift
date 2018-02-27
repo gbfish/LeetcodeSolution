@@ -89,7 +89,6 @@ struct Solution65 {
         case .float:
             return stringIsFloat(string: numberString)
             
-            
         case .scientificNotation:
             let range = numberString.range(of: "e")!
             let distanceLowerBound = numberString.distance(from: numberString.startIndex, to: range.lowerBound)
@@ -115,6 +114,6 @@ struct Solution65 {
     }
     
     func run() {
-        _ = isNumber(".e1")
+        _ = isNumber("0")
     }
 }
