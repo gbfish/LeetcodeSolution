@@ -10,6 +10,7 @@
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
 		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
 		965488F920460E9F00E41ED5 /* 058. Length of Last Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */; };
+		965488FB20461E6C00E41ED5 /* 020. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */; };
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
 		9659C604202B89E60001001D /* 005. Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */; };
 		967EFE0C202297B5001522D3 /* 092. Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */; };
@@ -68,6 +69,7 @@
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
 		965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "058. Length of Last Word.swift"; sourceTree = "<group>"; };
+		965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "020. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
 		9659C603202B89E60001001D /* 005. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "005. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092. Reverse Linked List II.swift"; sourceTree = "<group>"; };
@@ -135,11 +137,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		965488FC20461E7300E41ED5 /*  Stack */ = {
+			isa = PBXGroup;
+			children = (
+				965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */,
+			);
+			path = " Stack";
+			sourceTree = "<group>";
+		};
+		965488FD20461E8C00E41ED5 /* Stack&Queue */ = {
+			isa = PBXGroup;
+			children = (
+				965488FC20461E7300E41ED5 /*  Stack */,
+			);
+			path = "Stack&Queue";
+			sourceTree = "<group>";
+		};
 		96B80A332025163500AEACEE /* LinearList */ = {
 			isa = PBXGroup;
 			children = (
 				96FA8043201AAA4A00C2335C /* Array */,
 				96F517B620226FDD00320D41 /* ListNode */,
+				96B80A3A20253A7A00AEACEE /* String */,
 			);
 			path = LinearList;
 			sourceTree = "<group>";
@@ -206,7 +225,7 @@
 				96FA802F201AA7EE00C2335C /* AppDelegate.swift */,
 				96FA8031201AA7EE00C2335C /* ViewController.swift */,
 				96B80A332025163500AEACEE /* LinearList */,
-				96B80A3A20253A7A00AEACEE /* String */,
+				965488FD20461E8C00E41ED5 /* Stack&Queue */,
 				96FA8033201AA7EE00C2335C /* Main.storyboard */,
 				96FA8036201AA7EE00C2335C /* Assets.xcassets */,
 				96FA8038201AA7EE00C2335C /* LaunchScreen.storyboard */,
@@ -326,6 +345,7 @@
 				96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */,
 				96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */,
 				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
+				965488FB20461E6C00E41ED5 /* 020. Valid Parentheses.swift in Sources */,
 				96F0DCF52023DAFC00F59015 /* ListNode.swift in Sources */,
 				96B80A352025167300AEACEE /* 025. Reverse Nodes in k-Group.swift in Sources */,
 				96FA8053201AAF4600C2335C /* 016. 3Sum Closest.swift in Sources */,
