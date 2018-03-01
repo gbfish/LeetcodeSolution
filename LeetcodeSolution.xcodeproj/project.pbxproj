@@ -25,6 +25,7 @@
 		96B80A3920253A1600AEACEE /* 125. Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */; };
 		96B80A3C20258F1800AEACEE /* 028. Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */; };
 		96B80A3E2025945600AEACEE /* 008. String to Integer (atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */; };
+		96C9AA892047497000CA2306 /* 084. Largest Rectangle in Histogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9AA882047497000CA2306 /* 084. Largest Rectangle in Histogram.swift */; };
 		96D523352045E234004C3A9D /* 013. Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D523342045E234004C3A9D /* 013. Roman to Integer.swift */; };
 		96D523372045F14E004C3A9D /* 038. Count and Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D523362045F14E004C3A9D /* 038. Count and Say.swift */; };
 		96D523392045FE2D004C3A9D /* 049. Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D523382045FE2D004C3A9D /* 049. Group Anagrams.swift */; };
@@ -85,6 +86,7 @@
 		96B80A3820253A1600AEACEE /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
 		96B80A3B20258F1800AEACEE /* 028. Implement strStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "028. Implement strStr().swift"; sourceTree = "<group>"; };
 		96B80A3D2025945600AEACEE /* 008. String to Integer (atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "008. String to Integer (atoi).swift"; sourceTree = "<group>"; };
+		96C9AA882047497000CA2306 /* 084. Largest Rectangle in Histogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "084. Largest Rectangle in Histogram.swift"; sourceTree = "<group>"; };
 		96D523342045E234004C3A9D /* 013. Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "013. Roman to Integer.swift"; sourceTree = "<group>"; };
 		96D523362045F14E004C3A9D /* 038. Count and Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038. Count and Say.swift"; sourceTree = "<group>"; };
 		96D523382045FE2D004C3A9D /* 049. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "049. Group Anagrams.swift"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */,
 				96AF673120462C8E00EADAC1 /* 032. Longest Valid Parentheses.swift */,
+				96C9AA882047497000CA2306 /* 084. Largest Rectangle in Histogram.swift */,
 			);
 			path = " Stack";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				96F0DCFD2024E8BC00F59015 /* 061. Rotate List.swift in Sources */,
 				96F0DCFB2023EB9000F59015 /* 082. Remove Duplicates from Sorted List II.swift in Sources */,
 				96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */,
+				96C9AA892047497000CA2306 /* 084. Largest Rectangle in Histogram.swift in Sources */,
 				96F517AD20224E5500320D41 /* 134. Gas Station.swift in Sources */,
 				96FA804B201AACAB00C2335C /* 033. Search in Rotated Sorted Array.swift in Sources */,
 				965488FB20461E6C00E41ED5 /* 020. Valid Parentheses.swift in Sources */,
