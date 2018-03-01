@@ -63,5 +63,4 @@ struct Solution84 {
     func run() {
         _ = largestRectangleArea([2,1,5,6,2,3])
     }
-    
 }
