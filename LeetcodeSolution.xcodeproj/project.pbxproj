@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
 		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
+		963E642F204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */; };
+		963E6433204A165F00E2C826 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E6432204A165F00E2C826 /* TreeNode.swift */; };
 		965488F920460E9F00E41ED5 /* 058. Length of Last Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */; };
 		965488FB20461E6C00E41ED5 /* 020. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */; };
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
@@ -71,6 +73,8 @@
 /* Begin PBXFileReference section */
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
+		963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. Binary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
+		963E6432204A165F00E2C826 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "058. Length of Last Word.swift"; sourceTree = "<group>"; };
 		965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "020. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
@@ -143,6 +147,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963E6430204A144000E2C826 /* BinaryTreeTraversal */ = {
+			isa = PBXGroup;
+			children = (
+				963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */,
+			);
+			path = BinaryTreeTraversal;
+			sourceTree = "<group>";
+		};
+		963E6431204A148500E2C826 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				963E6432204A165F00E2C826 /* TreeNode.swift */,
+				963E6430204A144000E2C826 /* BinaryTreeTraversal */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		965488FC20461E7300E41ED5 /*  Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,8 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				96FA8043201AAA4A00C2335C /* Array */,
-				96F517B620226FDD00320D41 /* ListNode */,
-				96B80A3A20253A7A00AEACEE /* String */,
+				96F517B620226FDD00320D41 /* List */,
 			);
 			path = LinearList;
 			sourceTree = "<group>";
@@ -194,7 +214,7 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		96F517B620226FDD00320D41 /* ListNode */ = {
+		96F517B620226FDD00320D41 /* List */ = {
 			isa = PBXGroup;
 			children = (
 				96F0DCF42023DAFC00F59015 /* ListNode.swift */,
@@ -209,7 +229,7 @@
 				967EFE0B202297B5001522D3 /* 092. Reverse Linked List II.swift */,
 				96B80A3620252B3100AEACEE /* 143. Reorder List.swift */,
 			);
-			path = ListNode;
+			path = List;
 			sourceTree = "<group>";
 		};
 		96FA8023201AA7ED00C2335C = {
@@ -234,7 +254,9 @@
 				96FA802F201AA7EE00C2335C /* AppDelegate.swift */,
 				96FA8031201AA7EE00C2335C /* ViewController.swift */,
 				96B80A332025163500AEACEE /* LinearList */,
+				96B80A3A20253A7A00AEACEE /* String */,
 				965488FD20461E8C00E41ED5 /* Stack&Queue */,
+				963E6431204A148500E2C826 /* Tree */,
 				96FA8033201AA7EE00C2335C /* Main.storyboard */,
 				96FA8036201AA7EE00C2335C /* Assets.xcassets */,
 				96FA8038201AA7EE00C2335C /* LaunchScreen.storyboard */,
@@ -349,6 +371,7 @@
 				96F517A92021246800320D41 /* 089. Gray Code.swift in Sources */,
 				96FA8042201AA9B200C2335C /* 001. Two Sum.playground.swift in Sources */,
 				96D523392045FE2D004C3A9D /* 049. Group Anagrams.swift in Sources */,
+				963E642F204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift in Sources */,
 				96F0DCFD2024E8BC00F59015 /* 061. Rotate List.swift in Sources */,
 				96F0DCFB2023EB9000F59015 /* 082. Remove Duplicates from Sorted List II.swift in Sources */,
 				96F517A72021057100320D41 /* 070. Climbing Stairs.swift in Sources */,
@@ -364,6 +387,7 @@
 				96B80A3E2025945600AEACEE /* 008. String to Integer (atoi).swift in Sources */,
 				961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */,
 				96B80A3C20258F1800AEACEE /* 028. Implement strStr().swift in Sources */,
+				963E6433204A165F00E2C826 /* TreeNode.swift in Sources */,
 				96F517B120225E5F00320D41 /* 136. Single Number.swift in Sources */,
 				96F517A1201FE8A600320D41 /* 042. Trapping Rain Water.swift in Sources */,
 				96F5179D201BFA4C00320D41 /* 060. Permutation Sequence.swift in Sources */,
