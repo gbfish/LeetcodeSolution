@@ -17,6 +17,38 @@
             endingLineNumber = "42"
             landmarkName = "groupAnagrams(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetcodeSolution.Solution49.groupAnagrams(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "LeetcodeSolution"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yud/Desktop/Code/LeetcodeSolution/LeetcodeSolution/String/049.%20Group%20Anagrams.swift"
+                  timestampString = "541731240.863278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (key: Swift.String, value: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.String&gt; in LeetcodeSolution.Solution49.groupAnagrams(Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "LeetcodeSolution"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yud/Desktop/Code/LeetcodeSolution/LeetcodeSolution/String/049.%20Group%20Anagrams.swift"
+                  timestampString = "541731240.864599"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
