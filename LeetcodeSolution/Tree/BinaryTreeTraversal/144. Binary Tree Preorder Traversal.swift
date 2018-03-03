@@ -40,4 +40,20 @@ struct Solution144 {
         let root = TreeNode(5)
         _ = preorderTraversal(root)
     }
+    
+    // Recursive
+    
+    func preorderTraversalRecursive(_ root: TreeNode?) -> [Int] {
+        func recursive(root: TreeNode?, result: inout [Int]) {
+            if let root = root {
+                result.append(root.val)
+                recursive(root: root.left, result: &result)
+                recursive(root: root.right, result: &result)
+            }
+        }
+        
+        var result = [Int]()
+        recursive(root: root, result: &result)
+        return result
+    }
 }
