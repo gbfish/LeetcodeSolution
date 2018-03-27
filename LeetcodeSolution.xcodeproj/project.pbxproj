@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96137F40206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */; };
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
 		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
 		963E642F204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
 		963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. Binary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				963E6434204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift */,
 				963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */,
+				96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */,
 			);
 			path = BinaryTreeTraversal;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */,
 				96D523372045F14E004C3A9D /* 038. Count and Say.swift in Sources */,
 				96F51797201BB5CF00320D41 /* 018. 4Sum.swift in Sources */,
+				96137F40206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift in Sources */,
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
 				968B8B682037871B00F7DC2A /* 014. Longest Common Prefix.swift in Sources */,
 				96F517AF202257D000320D41 /* 135. Candy.swift in Sources */,
