@@ -17,6 +17,8 @@ import Foundation
 
 struct Solution144 {
     
+    // root -> left -> right
+    
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         var stack = [TreeNode]()
         var array = [Int]()
