@@ -15,7 +15,7 @@
 
 import Foundation
 
-class Solution145 {
+struct Solution145 {
     
     // left -> right -> root
     
