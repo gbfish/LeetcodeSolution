@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96137F40206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */; };
+		96137F42206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96137F41206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift */; };
 		961E1670203386250014173C /* 010. Regular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E166F203386250014173C /* 010. Regular Expression Matching.swift */; };
 		961E16722033B4ED0014173C /* 044. Wildcard Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */; };
 		963E642F204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */; };
@@ -74,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
+		96137F41206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		961E166F203386250014173C /* 010. Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010. Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		961E16712033B4ED0014173C /* 044. Wildcard Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "044. Wildcard Matching.swift"; sourceTree = "<group>"; };
 		963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. Binary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				963E6434204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift */,
+				96137F41206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift */,
 				963E642E204A143A00E2C826 /* 144. Binary Tree Preorder Traversal.swift */,
 				96137F3F206ADF1C00AD57F8 /* 145. Binary Tree Postorder Traversal.swift */,
 			);
@@ -402,6 +405,7 @@
 				96B80A3920253A1600AEACEE /* 125. Valid Palindrome.swift in Sources */,
 				96F5179F201FCC0200320D41 /* 036. Valid Sudoku.swift in Sources */,
 				96D5233B204605DB004C3A9D /* 071. Simplify Path.swift in Sources */,
+				96137F42206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */,
 				96F517A3201FEC7A00320D41 /* 048. Rotate Image.swift in Sources */,
 				96FA8045201AAAFF00C2335C /* 004. Median of Two Sorted Arrays.swift in Sources */,
