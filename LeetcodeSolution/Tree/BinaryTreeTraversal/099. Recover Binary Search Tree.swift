@@ -20,22 +20,15 @@ struct Solution99 {
         func recursion(root: TreeNode?) {
             if let root = root {
                 recursion(root: root.left)
-                if previous != nil {
-                    if root.val < previous!.val {
-                        if mistakeArray.count == 0 {
-                            mistakeArray.append(previous!)
-                            mistakeArray.append(root)
-                        } else {
-                            mistakeArray[1] = root
-                        }
-                        
-                        
+                if previous != nil && root.val < previous!.val {
+                    if mistakeArray.count == 0 {
+                        mistakeArray.append(previous!)
+                        mistakeArray.append(root)
                     } else {
-                        previous = root
+                        mistakeArray[1] = root
                     }
-                } else {
-                    previous = root
                 }
+                previous = root
                 recursion(root: root.right)
             }
         }
