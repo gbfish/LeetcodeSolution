@@ -21,7 +21,7 @@
 
 import Foundation
 
-struct Solution8 {
+struct Solution8: TestProtocol {
     
     func myAtoi(_ str: String) -> Int {
         if str == "" {

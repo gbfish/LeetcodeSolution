@@ -20,7 +20,7 @@
 
 import Foundation
 
-struct Solution103 {
+struct Solution103: TestProtocol {
     
     func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
         var stack = [TreeNode]()

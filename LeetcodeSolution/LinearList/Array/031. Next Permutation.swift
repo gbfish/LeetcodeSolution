@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution31 {
+struct Solution31: TestProtocol {
     
     func nextPermutation(_ nums: inout [Int]) {
         var index = nums.count - 1

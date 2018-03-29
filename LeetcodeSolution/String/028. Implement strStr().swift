@@ -17,7 +17,7 @@
 
 import Foundation
 
-struct Solution28 {
+struct Solution28: TestProtocol {
     
     func strStr(_ haystack: String, _ needle: String) -> Int {
         if let range = haystack.range(of: needle, options: .literal)?.lowerBound {

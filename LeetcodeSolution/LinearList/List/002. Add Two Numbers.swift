@@ -26,7 +26,7 @@
 
 import Foundation
 
-struct Solution2 {
+struct Solution2: TestProtocol {
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         func add(listNode1: ListNode?, listNode2: ListNode?) -> ListNode? {

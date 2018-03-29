@@ -6,7 +6,8 @@
 
 import Foundation
 
-struct Solution14 {
+struct Solution14: TestProtocol {
+    
     func longestCommonPrefix(_ strs: [String]) -> String {
         
         func characterString(in string: String, at index: Int) -> String {

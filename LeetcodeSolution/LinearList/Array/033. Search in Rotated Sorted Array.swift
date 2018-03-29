@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution33 {
+struct Solution33: TestProtocol {
     
     func search(_ nums: [Int], _ target: Int) -> Int {
         var firstIndex: Int = 0

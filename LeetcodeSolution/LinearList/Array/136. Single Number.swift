@@ -9,7 +9,7 @@
 
 import Foundation
 
-struct Solution136 {
+struct Solution136: TestProtocol {
     
     func singleNumber(_ nums: [Int]) -> Int {
         var returnValue = 0

@@ -14,7 +14,7 @@
 
 import Foundation
 
-struct Solution65 {
+struct Solution65: TestProtocol {
     
     func isNumber(_ s: String) -> Bool {
         

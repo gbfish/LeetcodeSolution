@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution73 {
+struct Solution73: TestProtocol {
     
     func setZeroes(_ matrix: inout [[Int]]) {
         let rowsDetector = matrix.map({ $0.filter({ $0 == 0 }).count > 0 })

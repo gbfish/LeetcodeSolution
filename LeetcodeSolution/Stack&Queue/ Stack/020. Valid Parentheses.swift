@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Solution20 {
+struct Solution20: TestProtocol {
     
     func isValid(_ s: String) -> Bool {
         

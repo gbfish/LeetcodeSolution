@@ -27,7 +27,7 @@
 
 import Foundation
 
-struct Solution38 {
+struct Solution38: TestProtocol {
     
     func countAndSay(_ n: Int) -> String {
         

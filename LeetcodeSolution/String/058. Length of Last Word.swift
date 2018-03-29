@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution58 {
+struct Solution58: TestProtocol {
     
     func lengthOfLastWord(_ s: String) -> Int {
         func isWord(string: String) -> Bool {

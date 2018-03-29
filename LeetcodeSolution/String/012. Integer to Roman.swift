@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Solution12 {
+struct Solution12: TestProtocol {
     
     func intToRoman(_ num: Int) -> String {
         func biggestTuple(number: Int) -> (key: Int, value: String)? {

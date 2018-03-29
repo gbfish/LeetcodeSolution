@@ -12,7 +12,7 @@
 
 import Foundation
 
-class Solution86 {
+class Solution86: TestProtocol {
     
     func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
         

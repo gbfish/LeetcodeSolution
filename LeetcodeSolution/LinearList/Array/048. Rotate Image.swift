@@ -44,7 +44,7 @@
 
 import Foundation
 
-struct Solution48 {
+struct Solution48: TestProtocol {
     
     func rotate(_ matrix: inout [[Int]]) {
         let matrixCount = matrix.count

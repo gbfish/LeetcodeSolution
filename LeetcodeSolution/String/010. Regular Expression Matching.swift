@@ -23,7 +23,7 @@
 
 import Foundation
 
-struct Solution10 {
+struct Solution10: TestProtocol {
     
     func isMatch(_ s: String, _ p: String) -> Bool {
         var matchString = s

@@ -10,7 +10,7 @@
 
 import Foundation
 
-struct Solution32 {
+struct Solution32: TestProtocol {
     
     func longestValidParentheses(_ s: String) -> Int {
         var stack = [String]()

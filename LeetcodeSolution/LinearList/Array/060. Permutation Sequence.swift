@@ -19,7 +19,7 @@
 
 import Foundation
 
-struct Solution60 {
+struct Solution60: TestProtocol {
     
     func getPermutation(_ n: Int, _ k: Int) -> String {
         func division(numerator: Int, denominator: Int) -> (quotient: Int, remainder: Int) {

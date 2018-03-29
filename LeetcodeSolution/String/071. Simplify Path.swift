@@ -10,7 +10,7 @@
 
 import Foundation
 
-struct Solution71 {
+struct Solution71: TestProtocol {
     
     func simplifyPath(_ path: String) -> String {
         let array = path.split(separator: "/").map({ String($0) })

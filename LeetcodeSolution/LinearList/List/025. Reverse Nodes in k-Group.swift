@@ -19,7 +19,7 @@
 
 import Foundation
 
-struct Solution25 {
+struct Solution25: TestProtocol {
     
     func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
         let dummy = ListNode(0)

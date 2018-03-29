@@ -10,7 +10,7 @@
 
 import Foundation
 
-struct Solution16 {
+struct Solution16: TestProtocol {
     
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         var result: Int?

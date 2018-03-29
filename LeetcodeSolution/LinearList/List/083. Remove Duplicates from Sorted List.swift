@@ -10,7 +10,7 @@
 
 import Foundation
 
-class Solution83 {
+class Solution83: TestProtocol {
     
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         let dummy = ListNode(Int.max)

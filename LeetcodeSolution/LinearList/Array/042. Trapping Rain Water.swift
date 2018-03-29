@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution42 {
+struct Solution42: TestProtocol {
     
     func trap(_ height: [Int]) -> Int {
         func trapWater(at index: Int) -> Int {

@@ -9,7 +9,7 @@
 
 import Foundation
 
-struct Solution137 {
+struct Solution137: TestProtocol {
     
     func singleNumber(_ nums: [Int]) -> Int {
         var dictionary = [Int: Int]()

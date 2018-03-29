@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution49 {
+struct Solution49: TestProtocol {
     
     func groupAnagrams(_ strs: [String]) -> [[String]] {
         func count(string: String) -> String {

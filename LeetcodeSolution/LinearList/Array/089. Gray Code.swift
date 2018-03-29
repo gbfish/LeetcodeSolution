@@ -21,7 +21,7 @@
 
 import Foundation
 
-struct Solution89 {
+struct Solution89: TestProtocol {
     
     struct GrayCodeInerator: IteratorProtocol {
         var grayCode = ["0", "1"]

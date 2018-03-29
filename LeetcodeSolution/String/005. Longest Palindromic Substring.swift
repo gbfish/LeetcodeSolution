@@ -21,7 +21,7 @@
 
 import Foundation
 
-struct Solution5 {
+struct Solution5: TestProtocol {
 
     func longestPalindrome_ma(s: String) -> String {
         var charactersArr = Array<Character>()

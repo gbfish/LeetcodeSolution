@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution150 {
+struct Solution150: TestProtocol {
     
     func evalRPN(_ tokens: [String]) -> Int {
         var arithmeticExpression = tokens

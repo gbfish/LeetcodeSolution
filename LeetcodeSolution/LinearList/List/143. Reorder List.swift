@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution143 {
+struct Solution143: TestProtocol {
     
     func reorderList(_ head: ListNode?) {
         if head == nil {

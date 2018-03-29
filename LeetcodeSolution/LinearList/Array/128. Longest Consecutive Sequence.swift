@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution128 {
+struct Solution128: TestProtocol {
     
     func longestConsecutive(_ nums: [Int]) -> Int {
         var numsSet = Set(nums)

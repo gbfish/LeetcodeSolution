@@ -11,7 +11,7 @@
 
 import Foundation
 
-struct Solution24 {
+struct Solution24: TestProtocol {
     
     func swapPairs(_ head: ListNode?) -> ListNode? {
         let dummy = ListNode(0)

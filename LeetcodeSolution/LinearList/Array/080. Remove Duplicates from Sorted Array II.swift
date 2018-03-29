@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution80 {
+struct Solution80: TestProtocol {
     
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         var index: Int = 0

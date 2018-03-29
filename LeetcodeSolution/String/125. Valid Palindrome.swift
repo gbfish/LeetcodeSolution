@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution125 {
+struct Solution125: TestProtocol {
     
     func isPalindrome(_ s: String) -> Bool {
         func isAlphanumeric(string: String) -> Bool {

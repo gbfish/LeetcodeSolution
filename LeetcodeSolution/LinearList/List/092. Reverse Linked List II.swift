@@ -27,7 +27,7 @@
 
 import Foundation
 
-struct Solution92 {
+struct Solution92: TestProtocol {
     
     func reverseBetween(_ head: ListNode?, _ m: Int, _ n: Int) -> ListNode? {
         let dummy = ListNode(0)

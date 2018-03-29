@@ -11,7 +11,7 @@
 
 import Foundation
 
-struct Solution99 {
+struct Solution99: TestProtocol {
     
     func recoverTree(_ root: TreeNode?) {
         var previous: TreeNode? = nil

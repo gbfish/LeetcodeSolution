@@ -14,7 +14,7 @@
 
 import Foundation
 
-struct Solution36 {
+struct Solution36: TestProtocol {
     
     func isValidSudoku(_ board: [[Character]]) -> Bool {
         func isValidArray(array: [Character]) -> Bool {

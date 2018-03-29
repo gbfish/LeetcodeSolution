@@ -11,7 +11,7 @@
 
 import Foundation
 
-struct Solution67 {
+struct Solution67: TestProtocol {
     
     func addBinary(_ a: String, _ b: String) -> String {
         var arrayA = a.map({ Int(String($0))! })

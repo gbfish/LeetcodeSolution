@@ -17,7 +17,7 @@
 
 import Foundation
 
-struct Solution18 {
+struct Solution18: TestProtocol {
     
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         if nums.count < 4 {

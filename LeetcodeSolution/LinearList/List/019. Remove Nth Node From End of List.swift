@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution19 {
+struct Solution19: TestProtocol {
     
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         let dummy = ListNode(0)

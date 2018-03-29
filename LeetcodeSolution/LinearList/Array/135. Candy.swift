@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct Solution135 {
+struct Solution135: TestProtocol {
     
     func candy(_ ratings: [Int]) -> Int {
         var candyArray = Array<Int>(repeatElement(1, count: ratings.count))

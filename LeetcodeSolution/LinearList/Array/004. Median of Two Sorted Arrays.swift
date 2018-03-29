@@ -19,7 +19,7 @@
 
 import Foundation
 
-struct Solution4 {
+struct Solution4: TestProtocol {
     
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         var nums1 = nums1

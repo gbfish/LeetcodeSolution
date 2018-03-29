@@ -29,7 +29,7 @@
 
 import Foundation
 
-struct Solution70 {
+struct Solution70: TestProtocol {
     
     struct FibonacciIterator: IteratorProtocol {
         var previous: Int

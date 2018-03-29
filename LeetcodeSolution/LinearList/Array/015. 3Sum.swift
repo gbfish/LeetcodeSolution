@@ -16,7 +16,7 @@
 
 import Foundation
 
-struct Solution15 {
+struct Solution15: TestProtocol {
     
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var returnValue = [[Int]]()

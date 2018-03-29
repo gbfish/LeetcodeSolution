@@ -15,7 +15,7 @@
 
 import Foundation
 
-struct Solution145 {
+struct Solution145: TestProtocol {
     
     // left -> right -> root
     

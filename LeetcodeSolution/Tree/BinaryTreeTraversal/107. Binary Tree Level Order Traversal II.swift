@@ -20,7 +20,7 @@
 
 import Foundation
 
-struct Solution107 {
+struct Solution107: TestProtocol {
     
     func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
         var stack = [TreeNode]()

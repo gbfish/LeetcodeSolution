@@ -14,7 +14,7 @@
 
 import Foundation
 
-struct Solution1 {
+struct Solution1: TestProtocol {
     
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var numberDictionary = [Int: Int]()

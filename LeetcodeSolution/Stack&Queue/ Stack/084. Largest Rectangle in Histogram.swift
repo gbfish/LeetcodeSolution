@@ -16,7 +16,7 @@
 
 import Foundation
 
-struct Solution84 {
+struct Solution84: TestProtocol {
     
     func largestRectangleArea(_ heights: [Int]) -> Int {
         var indexStack = [Int]()

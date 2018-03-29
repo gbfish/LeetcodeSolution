@@ -12,7 +12,7 @@
  */
 import Foundation
 
-struct Solution61 {
+struct Solution61: TestProtocol {
     
     func rotateRight(_ head: ListNode?, _ k: Int) -> ListNode? {
         var previousOfHead: ListNode? = head

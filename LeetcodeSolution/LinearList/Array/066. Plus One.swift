@@ -10,7 +10,7 @@
 
 import Foundation
 
-struct Solution66 {
+struct Solution66: TestProtocol {
     
     func plusOne(_ digits: [Int]) -> [Int] {
         var digitsArray = digits

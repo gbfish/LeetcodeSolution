@@ -16,7 +16,7 @@
 
 import Foundation
 
-struct Solution27 {
+struct Solution27: TestProtocol {
     
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
         nums = nums.filter(){ $0 != val }

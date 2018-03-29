@@ -13,7 +13,7 @@
 
 import Foundation
 
-struct Solution134 {
+struct Solution134: TestProtocol {
     
     func canCompleteCircuit(_ gas: [Int], _ cost: [Int]) -> Int {
         var sumArray = [Int]()
