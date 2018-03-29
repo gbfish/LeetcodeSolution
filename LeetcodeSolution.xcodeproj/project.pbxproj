@@ -18,6 +18,7 @@
 		963E6433204A165F00E2C826 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E6432204A165F00E2C826 /* TreeNode.swift */; };
 		963E6435204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E6434204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift */; };
 		9644D401206D5E0700406358 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644D400206D5E0700406358 /* Manager.swift */; };
+		9644D403206D603100406358 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644D402206D603100406358 /* 100. Same Tree.swift */; };
 		965488F920460E9F00E41ED5 /* 058. Length of Last Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */; };
 		965488FB20461E6C00E41ED5 /* 020. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */; };
 		9659C602202A8B130001001D /* 067. Add Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9659C601202A8B130001001D /* 067. Add Binary.swift */; };
@@ -89,6 +90,7 @@
 		963E6432204A165F00E2C826 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		963E6434204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "094. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
 		9644D400206D5E0700406358 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		9644D402206D603100406358 /* 100. Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
 		965488F820460E9F00E41ED5 /* 058. Length of Last Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "058. Length of Last Word.swift"; sourceTree = "<group>"; };
 		965488FA20461E6C00E41ED5 /* 020. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "020. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		9659C601202A8B130001001D /* 067. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "067. Add Binary.swift"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			children = (
 				963E6434204A241E00E2C826 /* 094. Binary Tree Inorder Traversal.swift */,
 				96137F47206AF7B300AD57F8 /* 099. Recover Binary Search Tree.swift */,
+				9644D402206D603100406358 /* 100. Same Tree.swift */,
 				96137F41206AE37C00AD57F8 /* 102. Binary Tree Level Order Traversal.swift */,
 				96137F45206AE98B00AD57F8 /* 103. Binary Tree Zigzag Level Order Traversal.swift */,
 				96137F43206AE7AC00AD57F8 /* 107. Binary Tree Level Order Traversal II.swift */,
@@ -441,6 +444,7 @@
 				96FA804D201AACFC00C2335C /* 080. Remove Duplicates from Sorted Array II.swift in Sources */,
 				968B8B682037871B00F7DC2A /* 014. Longest Common Prefix.swift in Sources */,
 				96F517AF202257D000320D41 /* 135. Candy.swift in Sources */,
+				9644D403206D603100406358 /* 100. Same Tree.swift in Sources */,
 				96FA8049201AAC4E00C2335C /* 026. Remove Duplicates from Sorted Array.swift in Sources */,
 				96F517B520226FAD00320D41 /* 002. Add Two Numbers.swift in Sources */,
 				96D523352045E234004C3A9D /* 013. Roman to Integer.swift in Sources */,
