@@ -37,7 +37,7 @@
 
 import Foundation
 
-struct Solution: TestProtocol {
+struct Solution100: TestProtocol {
     
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         func structure(treeNode: TreeNode?, result: inout [String]) -> ()  {
