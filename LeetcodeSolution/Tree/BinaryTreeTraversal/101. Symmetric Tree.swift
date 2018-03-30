@@ -52,6 +52,48 @@ struct Solution101: TestProtocol {
     
     func run() {
         let root = TreeNode(5)
-        _ = isSymmetric(root)
+        _ = isSymmetricIterative(root)
+    }
+    
+    // iterative
+    
+    func isSymmetricIterative(_ root: TreeNode?) -> Bool {
+        func add(treeNode: TreeNode?, into stack: inout [TreeNode]) {
+            if let treeNode = treeNode {
+                stack.append(treeNode)
+            } else {
+                stack.append(TreeNode(Int.min))
+            }
+        }
+        
+        func structure(treeNode: TreeNode?, leftToRight: Bool) -> ([String]) {
+            var result = [String]()
+            var stack = [TreeNode]()
+
+            add(treeNode: root, into: &stack)
+            
+            while stack.count > 0 {
+                var temporaryStack = [TreeNode]()
+                while stack.count > 0 {
+                    let first = stack.removeFirst()
+                    result.append("\(first.val)")
+                    if first.val != Int.min {
+                        if leftToRight == true {
+                            add(treeNode: first.left, into: &temporaryStack)
+                            add(treeNode: first.right, into: &temporaryStack)
+                        } else {
+                            add(treeNode: first.right, into: &temporaryStack)
+                            add(treeNode: first.left, into: &temporaryStack)
+                        }
+                    }
+                }
+                stack = temporaryStack
+            }
+            return result
+        }
+        
+        let structureLeft = structure(treeNode: root?.left, leftToRight: true)
+        let structureRight = structure(treeNode: root?.right, leftToRight: false)
+        return structureLeft == structureRight
     }
 }
